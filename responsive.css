@@ -60,10 +60,13 @@
         margin-left: 3px;
     }
     
+    .home {
+        margin-top: 20%;
+    }
 
     .home h1 {
         font-size: 30px;
-        width: 75%;       
+        width: 75%;    
         line-height: 55px;
         font-weight: 100; 
  }
