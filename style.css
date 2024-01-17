@@ -121,7 +121,7 @@ ul li.active {
 
 .home {
     color: rgba(226, 224, 224, 0.945);
-    margin-top: 20%;
+    margin-top: 10%;
     transition: all 2s;
     margin-bottom: 350px;
 }
@@ -292,7 +292,7 @@ ul li.active {
 .project-gif img {
     width: 250px;
     height: 150px;
-    border: 1px solid rgb(146, 5, 146);
+    
     
 }
  
@@ -308,16 +308,17 @@ ul li.active {
 
 
 .project-content h3 {
+    margin-top: 10px;
     font-weight: 500;
     color: white;
-    margin-left: 10px;
+    
 }
 
 .project-content .tec {
-    color: #cc0cd3;
+    color: #940699;
     font-size: 14px;
     font-weight: 800;
-    margin-left: 10px;
+    
 }
 
 .project-content p {
@@ -363,6 +364,7 @@ ul li.active {
     flex-direction: row-reverse;
     margin-left: 60%;
 }
+
 
 
 .card .img-side {
