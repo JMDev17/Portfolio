@@ -8,42 +8,43 @@
     <link rel="stylesheet" href="responsive.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/scrollreveal"></script>
+    
 
 </head>
 <body>
-   
+    <header>
     <nav class="navbar" >
-    <div class="container-menu area-1">
+    <div class="container-menu">
         
         <div class="toggle-menu">
-            <i class='bx bx-menu' id="btn-exp"></i>
+            <i class='bx bx-menu'></i>
         </div>
             <ul class="navlinks">
-                <li class="item-menu active">
-                    <a href="#">
+                <li class="item-menu ">
+                    <a href="#home" class="nav-links active">
                     <span class="icon"><i class='bx bx-home'></i></span>
                     <span class="icon-content">Home</span></a>
                 </li>
-                <li class="item-menu"><a href="#about">
+                <li class="item-menu"><a href="#about" class="nav-links">
                     <span class="icon"><i class='bx bxs-user-detail'></i></span>
                     <span class="icon-content">Sobre</span></a>
                 </li>
-                <li class="item-menu"><a href="#projetos">
+                <li class="item-menu"><a href="#projetos" class="nav-links">
                     <span class="icon"><i class='bx bxs-collection'></i></span>
                     <span class="icon-content">Projetos</span></a>
                 </li>
-                <li class="item-menu"><a href="#contato">
+                <li class="item-menu"><a href="#contato" class="nav-links">
                     <span class="icon"><i class='bx bxs-contact'></i></i></span>
                     <span class="icon-content">Contato</span></a>
                 </li>
-                
             </ul>
         </div>
     </nav>
+</header>
 
-<section class="container area-1">
+<section class="container area-1" id="home">
     <div class="home">
-       <h1>Olá, me chamo João Menini. Eu sou um <span id="home-h1">Desenvolvedor Front-End. </span>Trazendo soluções para seus problemas!</h1>
+       <h1>Olá, me chamo João Menini. Eu sou um <span class="home-h1">Desenvolvedor Front-End. </span>Trazendo soluções para seus problemas!</h1>
        
        <div class="button">
         <a href="IMG/curriculo-joao.pdf" download="curriculo-joao" class="cv-btn">Download CV</a>
@@ -74,17 +75,20 @@
         <i class='bx bxl-react' ></i>
         <i class='bx bxl-github'></i>
     </div>
-   </section>
+   </section >
     <div class="about-me area-1">
         <div class="about-text ">
             <h3>Sobre Mim</h3>
-            <p class="p-full">Eu sou o João, tenho 24 anos e sou <span class="about-span">Desenvolvedor Front-End</span>, estou cursando <span class="about-span">Ciências da Computação</span>, moro no Rio de Janeiro - RJ, sou um entusiasta em programação e tenho alguns hobbys como estudar filosofia, ouvir música clássica e jogar xadrez. </p>
+            <p class="p-full">Eu sou o João, tenho 24 anos e sou <span class="about-span">Desenvolvedor Front-End</span>
+                , estou cursando <span class="about-span">Ciências da Computação</span>
+                , moro no Rio de Janeiro - RJ, sou um entusiasta em programação e tenho alguns hobbys como estudar filosofia, ouvir música clássica e jogar xadrez. </p>
         </div>
         <div class="about-img">
             <img src="IMG/DOXXE.png" alt="me">
         </div>
     </div>
-    <h2 class="project-text area-1" id="projetos">Projetos</h2>
+    <section id="projetos">
+    <h2 class="project-text area-1 section">Projetos</h2>
          <div class="project-card flex-res area-2">
                 <div class="card">
                     <img src="IMG/images.png">
@@ -163,8 +167,10 @@
                         </div>
                     </div>
                 </div>
+            </section>
     
-            <footer class="row area-1" id="contato">
+            <section id="contato">
+            <footer class="row area-1">
                     <div class="col">
                         <h4>Entre em <span>contato</span>.</h4>
                         <p>Estou à disposição!</p>
@@ -176,10 +182,12 @@
                         </div>
                 </div>
             </footer> 
-                <hr>
-                <div class="d-text"><p>Feito por: <span>João Menini</span>.</p>
+            <hr>
+            <div class="d-text"><p>Feito por: <span>João Menini</span>.</p>
+            </section>
 
 
     <script src="script.js"></script>
+    
 </body>
 </html>

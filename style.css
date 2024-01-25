@@ -60,7 +60,7 @@ body {
     height: 100%;   
 }
 
-ul li.active {
+nav a.active {
     background-color: #940699;
 }
 
@@ -81,13 +81,13 @@ ul li.active {
 }
 
 .icon-content {
-    margin-left: 25px;
+    margin-left: 35px;
     font-weight: 300;
     
 }
 
 .item-menu a .icon i{
- 
+ margin-left: 5px;
  font-size: 35px;
  
 
@@ -135,7 +135,7 @@ ul li.active {
     
 }
 
-#home-h1 {
+.home-h1 {
     color: #940699;
 
 }
@@ -308,7 +308,6 @@ ul li.active {
 
 
 .project-content h3 {
-    margin-top: 10px;
     font-weight: 500;
     color: white;
     

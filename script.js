@@ -1,4 +1,4 @@
-const menuItem = document.querySelectorAll('.item-menu')
+const menuItem = document.querySelectorAll('.nav-links')
 
 function selectLink(){
     menuItem.forEach((item) =>
@@ -37,3 +37,25 @@ ScrollReveal().reveal('.area-2', {
     }
              
 });
+
+let sec = document.querySelectorAll('section')
+let navLinks = document.querySelectorAll('.nav-links')
+
+
+
+window.onscroll = () => {
+    sec.forEach(section => {
+        let top = window.scrollY +210 ;
+        let offset = section.offsetTop -150;
+        let height = section.offsetHeight +350 ;
+        let id = section.getAttribute('id');
+
+        if(top >= offset && top < offset + height) {
+            navLinks.forEach(links => {
+                links.classList.remove('active');
+              document.querySelector('.nav-links[href*=' + id + ']').classList.add('active');
+
+            })
+        }
+    })
+}
