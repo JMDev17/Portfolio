@@ -47,7 +47,7 @@ window.onscroll = () => {
     sec.forEach(section => {
         let top = window.scrollY +210 ;
         let offset = section.offsetTop -150;
-        let height = section.offsetHeight +350 ;
+        let height = section.offsetHeight +300 ;
         let id = section.getAttribute('id');
 
         if(top >= offset && top < offset + height) {
