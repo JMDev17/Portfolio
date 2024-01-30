@@ -258,22 +258,41 @@ font-weight: 500;
         margin-bottom: 10px;
     }
 
+ .ia-img {
+    margin-left: 15px;
+ }
+
 
 .btn-card {
     margin-top: 20px;
-    margin-left: 5%;
+    margin-left: 7%
     
    }
 
+   .tec {
+    margin-left: 10px
+   }
+
    .side-card {
-    margin-left: 40%;
+    margin-left: 10%;
     margin-top: 50px;
    }
 
+  .side-content p {
+    width: 80%;
+    margin-left: 12%
+  }
+
+   .side-content {
+    margin-top: 10px;
+    margin-right: 30px;
+   }
+  
+   .btn-side {
+    margin-right: 30px;
+   }
    
 }
-
-
 
 @media (max-width: 500px) {
     .home h1 {
@@ -350,17 +369,13 @@ font-weight: 500;
 @media (max-width: 360px) {
     
     .container-menu {
-        width: 47px;
+        width: 38px;
     }
 
 
-    .side-card {
-        margin-left: 38%;
-        margin-top: 50px;
-       }
-
    .project-gif img {
-    width: 180px;
+    width: 210px;
+    margin-right: 10px
     
    }
 
@@ -368,26 +383,24 @@ font-weight: 500;
     margin-left: 5%;
    }
 
-   .project-card .card img {
-    width: 170px;
-    height: 250px;
-    margin-left: 35px;
-    border-radius: 7px;
-
-}
 
 .project-content .tec {
     margin-left: 25px
 }
 
+.item-menu a .icon i{
+     
+    font-size: 20px;
+    
+}
 
  .project-content p {
-    font-size: 12px;
-    margin-right: 
+    font-size: 14px;
+   
  }
 
  .side-content p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .btn-card, .btn-side a {
@@ -411,3 +424,4 @@ font-weight: 500;
   }
 
 }
+

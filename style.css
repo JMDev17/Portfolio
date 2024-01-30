@@ -279,15 +279,7 @@ nav a.active {
     border: 1px solid rgb(146, 5, 146);
 
 }
-.project-card .ia-img img {
-    width: 200px;
-    height: 300px;
-    margin-left: 15px;
-    margin-top: 20px;
-    border-radius: 7px;
-    border: 1px solid rgb(146, 5, 146);
-    
-}
+
 
 .project-gif img {
     width: 250px;
@@ -307,14 +299,11 @@ nav a.active {
     
 }
 
-.img-side2 {
- margin-bottom: 30px
-}
-
 
 .project-content h3 {
     font-weight: 500;
     color: white;
+    margin-left: 5px
     
 }
 
@@ -345,7 +334,7 @@ nav a.active {
 
 .btn-card {
     margin-top: 10px;
-    gap: 20px;
+    gap: 10px;
     display: flex;
 }
 
@@ -361,14 +350,15 @@ nav a.active {
 .side-card {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     margin-bottom: 7rem;
     margin-top: 70px;
     color: white;
-    width: 30%;
     flex-direction: row-reverse;
-    margin-left: 60%;
+    margin-left: 65%;
+   
 }
+
 
 
 
@@ -401,9 +391,8 @@ nav a.active {
 
 
 .btn-side {
-    margin-top: 15px;
-    gap: 20px;
-    display: flex;
+    margin-top: 20px;
+    
 }
 
 
@@ -421,8 +410,6 @@ nav a.active {
 
 
 /* footer */
-
-
 
 .col {
     line-height: 30px;
