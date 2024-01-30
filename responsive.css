@@ -238,6 +238,7 @@ font-weight: 500;
     margin-left: 0;
     }
 
+
  
 .card1 {
         margin-left: 30px;
@@ -271,6 +272,8 @@ font-weight: 500;
 
    
 }
+
+
 
 
 @media (max-width: 500px) {
@@ -315,7 +318,6 @@ font-weight: 500;
 }
 
 
-
 @media (max-width: 420px) {
 
   
@@ -349,9 +351,9 @@ font-weight: 500;
 @media (max-width: 360px) {
     
     .container-menu {
-        width: 50px;
+        width: 47px;
     }
-    
+
 
     .side-card {
         margin-left: 38%;
@@ -375,13 +377,18 @@ font-weight: 500;
 
 }
 
+.project-content .tec {
+    margin-left: 25px
+}
+
 
  .project-content p {
-    font-size: 13px;
+    font-size: 12px;
+    margin-right: 
  }
 
  .side-content p {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .btn-card, .btn-side a {

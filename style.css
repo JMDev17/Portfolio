@@ -17,6 +17,7 @@ body {
     
 }
 
+
 .area-1 {
     visibility: hidden;
 }
@@ -286,7 +287,6 @@ nav a.active {
     border-radius: 7px;
     border: 1px solid rgb(146, 5, 146);
     
-
 }
 
 .project-gif img {
@@ -335,6 +335,7 @@ nav a.active {
     margin-left: 90px;
 
 }
+
 
 
 .btn-card {
@@ -483,3 +484,6 @@ hr {
     font-weight: 500;
 }
 
+.gifNotes {
+    margin-top: 50px
+}
