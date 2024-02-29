@@ -1,42 +1,42 @@
-
 @media (max-width:950px) {
     .home h1 {
         font-size: 40px;
-        width: 75%;       
+        width: 75%;
         line-height: 55px;
-        font-weight: 100; 
- }
- .home {
-    margin-top: 15%;
-}
+        font-weight: 100;
+    }
 
-  .side-card {
-    margin-left: 55%;
- }
+    .home {
+        margin-top: 15%;
+    }
 
-
-.button a {
-font-size: 12px;
-padding: 15px 20px;
-font-weight: 500;
-}
+    .side-card {
+        margin-left: 55%;
+    }
 
 
-.about-text p {
-    font-size: 17px;
-    margin-left: 30px;
-}
-
-.about-text h3 {
-    font-size: 30px;
-    margin-left: 30px;
-}
+    .button a {
+        font-size: 12px;
+        padding: 15px 20px;
+        font-weight: 500;
+    }
 
 
-.about-me .about-img img {
-    width: 300px;
-    border-radius: 50%;
-}
+    .about-text p {
+        font-size: 17px;
+        margin-left: 30px;
+    }
+
+    .about-text h3 {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+
+    .about-me .about-img img {
+        width: 300px;
+        border-radius: 50%;
+    }
 
 }
 
@@ -44,7 +44,7 @@ font-weight: 500;
 
     .container-menu.expandir {
         width: 250px;
-        z-index: 1;    
+        z-index: 1;
     }
 
     .container-menu {
@@ -55,7 +55,7 @@ font-weight: 500;
         left: 0;
     }
 
-  
+
 
     .item-menu .icon-content {
         font-size: 15px;
@@ -64,51 +64,51 @@ font-weight: 500;
     .icon {
         margin-left: 3px;
     }
-    
-    
-
-   
-
-  .button a {
-    font-size: 10px;
-  }
-
-  
- /* about-me */
-
- .about-me {
-    color: white;
-    gap: 4rem;
-    transition: 2s;
-    flex-direction: column;
-   
-  
-}
-
-.about-img img {
-    margin-left: 100px;
-}
 
 
 
-.about-text {
-    margin-left: 12%;
-}
 
-.about-text h3 {
-    font-size: 30px;
-}
 
-.about-text p {
-    font-size: 20px;
-    width: 90%;
-    color: #ebe5e5;
-    font-weight: 100;   
-}
+    .button a {
+        font-size: 10px;
+    }
 
-.side-card {
-    margin-left: 50%;
- }
+
+    /* about-me */
+
+    .about-me {
+        color: white;
+        gap: 4rem;
+        transition: 2s;
+        flex-direction: column;
+
+
+    }
+
+    .about-img img {
+        margin-left: 100px;
+    }
+
+
+
+    .about-text {
+        margin-left: 12%;
+    }
+
+    .about-text h3 {
+        font-size: 30px;
+    }
+
+    .about-text p {
+        font-size: 20px;
+        width: 90%;
+        color: #ebe5e5;
+        font-weight: 100;
+    }
+
+    .side-card {
+        margin-left: 50%;
+    }
 
 }
 
@@ -131,203 +131,211 @@ font-weight: 500;
 
 
 @media (max-width: 750px) {
-    
+
     .home h1 {
         font-size: 35px;
-        width: 70%;       
+        width: 70%;
         line-height: 55px;
-        font-weight: 100; 
- }
+        font-weight: 100;
+    }
 
- .home {
-    margin-top: 20%;
- }
+    .home {
+        margin-top: 20%;
+    }
 
- .container-menu {
-    width: 70px;
-    position: fixed;
-    top: 0;
-    left: 0;
- }
-
-
-
- .item-menu a .icon i{
- 
-    font-size: 30px;
-       
-   }
-
-   .about-text h3 {
-      font-size: 25px;
-      margin-left: 35px;       
-   }
-    
-   .about-text p {
-      font-size: 15px;
-      padding-right: 30px;
-   }
-
-   .about-me .about-img img {
-     margin-left: 100px;
-    width: 250px;
-    border-radius: 50%;
-}
-
-.side-card {
-    margin-left: 45%;
- }
+    .container-menu {
+        width: 70px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
 
 
 
-.project-content p {
-    font-weight: 100;
-    font-size: 13px;
-    max-width: 42rem;
-}
+    .item-menu a .icon i {
+
+        font-size: 30px;
+
+    }
+
+    .about-text h3 {
+        font-size: 25px;
+        margin-left: 35px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        padding-right: 30px;
+    }
+
+    .about-me .about-img img {
+        margin-left: 100px;
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    .side-card {
+        margin-left: 45%;
+    }
+
+
+
+    .project-content p {
+        font-weight: 100;
+        font-size: 13px;
+        max-width: 42rem;
+    }
 
 }
 
 
 @media (max-width: 660px) {
-    
+
     .home h1 {
         font-size: 30px;
-        width: 70%;       
+        width: 70%;
         line-height: 55px;
-        font-weight: 100; 
- }
+        font-weight: 100;
+    }
 
 
 
- 
-
-   .about-text h3 {
-      font-size: 25px;
-      margin-left: 35px;       
-   }
-    
-   .about-text p {
-      font-size: 15px;
-      padding-right: 30px;
-   }
-
-   .about-me .about-img img {
-     margin-left: 100px;
-    width: 250px;
-    border-radius: 50%;
-}
 
 
-.project-content p {
-    font-weight: 100;
-    font-size: 13px;
-       max-width: 42rem;
-}
+    .about-text h3 {
+        font-size: 25px;
+        margin-left: 35px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        padding-right: 30px;
+    }
+
+    .about-me .about-img img {
+        margin-left: 100px;
+        width: 250px;
+        border-radius: 50%;
+    }
+
+
+    .project-content p {
+        font-weight: 100;
+        font-size: 13px;
+        max-width: 42rem;
+    }
 
 }
 
 
 @media(max-width: 600px) {
 
-.project-card, .project-info, .side-card, .flex-res .project-content  {
-    text-align: center;
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
+    .project-card,
+    .project-info,
+    .side-card,
+    .flex-res .project-content {
+        text-align: center;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
     }
 
 
- 
-.card1 {
+
+    .card1 {
         margin-left: 30px;
     }
 
-.project-content p {
+    .project-content p {
         margin-left: 19%;
         width: 70%;
     }
 
     .slidebar {
-      height: 100px; 
+        height: 100px;
     }
-   
-    .slide-icon, .slide-icon2 {
+
+    .slide-icon,
+    .slide-icon2 {
         font-size: 70px;
         margin-bottom: 10px;
     }
 
- .ia-img {
-    margin-left: 15px;
- }
+    .ia-img {
+        margin-left: 15px;
+    }
 
 
-.btn-card {
-    margin-top: 20px;
-    margin-left: 7%
-    
-   }
+    .btn-card {
+        margin-top: 20px;
+        margin-left: 7%
+    }
 
-   .tec {
-    margin-left: 10px
-   }
+    .tec {
+        margin-left: 5px;
+        font-size: 14px;
+    }
 
-   .side-card {
-    margin-left: 10%;
-    margin-top: 50px;
-   }
+    .side-card {
+        margin-left: 10%;
+        margin-top: 50px;
+    }
 
-  .side-content p {
-    width: 80%;
-    margin-left: 12%
-  }
+    .side-content p {
+        width: 80%;
+        margin-left: 12%;
+        font-size: 13px
+    }
 
-   .side-content {
-    margin-top: 10px;
-    margin-right: 30px;
-   }
-  
-   .btn-side {
-    margin-right: 30px;
-   }
-   
+    .side-content {
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+
+    .btn-side {
+        margin-right: 30px;
+    }
+
 }
 
 @media (max-width: 500px) {
     .home h1 {
         font-size: 21px;
         margin-left: 15%;
-        
+
     }
 
-    
+    .project-card .card img {
+        height: 300px;
+    }
+
 
     .container-menu.expandir {
         width: 200px;
         z-index: 1;
-      }
+    }
 
     .container-menu {
         z-index: 1;
-        width: 50px;  
-}
+        width: 50px;
+    }
 
-.about-me .about-img img {
-    
-    margin-left: 100px;
-    width: 250px;
-    border-radius: 50%;
-}
+    .about-me .about-img img {
 
-.ia-h3 {
-    margin-left: 15px;
-}
+        margin-left: 100px;
+        width: 250px;
+        border-radius: 50%;
+    }
 
-.project-text {
-   font-size: 30px;
-   margin-right: 50px;
-}
+    .ia-h3 {
+        margin-left: 15px;
+    }
+
+    .project-text {
+        font-size: 30px;
+        margin-right: 50px;
+    }
 
 }
 
@@ -338,90 +346,88 @@ font-weight: 500;
 
 @media (max-width: 420px) {
 
-  
-    
-    .item-menu a .icon i{
-     
-     font-size: 25px;
-     
-    
+
+
+    .item-menu a .icon i {
+
+        font-size: 25px;
     }
 
-        .col h4 {
-            font-size: 30px;
-          }
-        
-          .col span {
-            font-size: 35px;
-          }
-     .d-text p {
+    .col h4 {
+        font-size: 30px;
+    }
+
+    .col span {
+        font-size: 35px;
+    }
+
+    .d-text p {
         font-size: 15px;
-     }
-
-     .button {
-        flex-direction: column;
-     }
-
     }
+
+    .button {
+        flex-direction: column;
+    }
+
+}
 
 
 
 @media (max-width: 360px) {
-    
+
     .container-menu {
         width: 38px;
     }
 
 
-   .project-gif img {
-    width: 210px;
-    margin-right: 10px
-    
-   }
+    .project-gif img {
+        width: 210px;
+        margin-right: 10px
+    }
 
-   .about-img {
-    margin-left: 5%;
-   }
+    .about-img {
+        margin-left: 5%;
+    }
 
 
-.project-content .tec {
-    margin-left: 25px
+    .project-content .tec {
+        margin-left: 25px
+    }
+
+    .item-menu a .icon i {
+
+        font-size: 20px;
+
+    }
+
+    .project-content p {
+        font-size: 14px;
+
+    }
+
+    .side-content p {
+        font-size: 14px;
+    }
+
+    .btn-card,
+    .btn-side a {
+        font-size: 12px;
+    }
+
+    .btn-card {
+        margin-left: 20px;
+    }
+
+    .tec {
+        font-size: 15px;
+    }
+
+    .button a {
+        font-size: 10px;
+        padding: 15px 19px;
+        font-weight: 500;
+        position: relative;
+        right: 5%;
+    }
+
 }
-
-.item-menu a .icon i{
-     
-    font-size: 20px;
-    
-}
-
- .project-content p {
-    font-size: 14px;
-   
- }
-
- .side-content p {
-    font-size: 14px;
-  }
-
-  .btn-card, .btn-side a {
-    font-size: 12px;
-   }
-
-   .btn-card {
-    margin-left: 20px;
-   }
-
-   .tec {
-    font-size: 15px;
-   }
-
-   .button a {
-    font-size: 10px;
-    padding: 15px 19px;
-    font-weight: 500;
-    position: relative;
-    right: 5%;
-  }
-
-}
-
